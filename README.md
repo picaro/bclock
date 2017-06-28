@@ -25,3 +25,9 @@ Wrapper so `gradlew` from the command line should download everything you need. 
 The use of JBehave in this instance is to provide you with our definition of done for the task.
 
 Please ensure that you are familiar with our values in the instructions project.  They are important to us.
+
+
+REVIEWS:
+1) There is no such time like 24:00:00 exist. It's a 00:00:00.  Test deleted.
+2) Top seconds test was wrong - 0 = O  , 1 = Y
+3) One more test fixed for minutes.

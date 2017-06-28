@@ -11,7 +11,7 @@ Narrative:
 Scenario: Midnight
 When the time is 00:00:00
 Then the clock should look like
-Y
+O
 OOOO
 OOOO
 OOOOOOOOOOO
@@ -20,7 +20,7 @@ OOOO
 Scenario: Middle of the afternoon
 When the time is 13:17:01
 Then the clock should look like
-O
+Y
 RROO
 RRRO
 YYROOOOOOOO
@@ -29,7 +29,7 @@ YOOO
 Scenario: Just before midnight
 When the time is 23:59:59
 Then the clock should look like
-O
+Y
 RRRR
 RRRO
 YYRYYRYYRYY
