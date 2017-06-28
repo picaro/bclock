@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class BerlinClockUtilTest {
 
     @Test
-    public void calcSeconds() throws Exception {
+    public void testThatWeCouldCalculateSeconds() throws Exception {
         assertEquals("OOOO", BerlinClockUtil.calcSeconds(0));
         assertEquals("YOOO", BerlinClockUtil.calcSeconds(1));
         assertEquals("OOOO", BerlinClockUtil.calcSeconds(10));
@@ -17,7 +17,7 @@ public class BerlinClockUtilTest {
     }
 
     @Test
-    public void calcMinutes() throws Exception {
+    public void testThatWeCouldCalculateMinutes() throws Exception {
         assertEquals("OOOOOOOOOOO", BerlinClockUtil.calcMinutes(0));
         assertEquals("YOOOOOOOOOO", BerlinClockUtil.calcMinutes(5));
         assertEquals("YYROOOOOOOO", BerlinClockUtil.calcMinutes(15));
@@ -26,7 +26,7 @@ public class BerlinClockUtilTest {
     }
 
     @Test
-    public void calcHours2() throws Exception {
+    public void testThatWeCouldCalculateHours2() throws Exception {
         assertEquals("OOOO", BerlinClockUtil.calcHours2(0));
         assertEquals("ROOO", BerlinClockUtil.calcHours2(1));
         assertEquals("OOOO", BerlinClockUtil.calcHours2(10));
@@ -34,7 +34,7 @@ public class BerlinClockUtilTest {
     }
 
     @Test
-    public void calcHours1() throws Exception {
+    public void testThatWeCouldCalculateHours1() throws Exception {
         assertEquals("OOOO", BerlinClockUtil.calcHours1(0));
         assertEquals("OOOO", BerlinClockUtil.calcHours1(2));
         assertEquals("ROOO", BerlinClockUtil.calcHours1(5));
@@ -44,7 +44,7 @@ public class BerlinClockUtilTest {
     }
 
     @Test
-    public void calcTopSeconds() throws Exception {
+    public void testThatWeCouldCalculateTopSeconds() throws Exception {
         assertEquals("O", BerlinClockUtil.calcTopSeconds(0));
         assertEquals("Y", BerlinClockUtil.calcTopSeconds(51));
     }
